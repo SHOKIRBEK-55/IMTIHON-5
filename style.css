@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins" sans-serif;
+	background-color: #252525;
+}
+
+.container {
+	width: 100%;
+	min-height: 30vh;
+	background: #32313100;
+	display: flex;
+	gap: 2rem;
+
+	justify-content: center;
+}
+
+#left,
+#right,
+#inter {
+	width: 230px;
+	min-height: 400px;
+	height: auto;
+	padding: 10px;
+	background-color: #191919;
+	border: 2px #fff dashed;
+}
+.list {
+	background: #565658;
+	height: 60px;
+	margin: 30px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: grab;
+	font-size: 30px;
+	border-radius: 20px;
+}
+.todo h1 {
+	/* display: flex; */
+	text-align: center;
+	position: relative;
+	top: 26px;
+	background-color: rgb(3, 142, 202);
+}
+.done h1 {
+	/* display: flex; */
+	position: relative;
+	top: 26px;
+	text-align: center;
+	background-color: green;
+}
+.IP h1 {
+	/* display: flex; */
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+	position: relative;
+	top: 26px;
+	background-color: rgb(175, 202, 3);
+}
